@@ -1,0 +1,19 @@
+{
+  "name": "uttest",
+  "version": "1.0.0",
+  "description": "a basic front-end test",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lukes611/uttest.git"
+  },
+  "author": "luke lincoln",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lukes611/uttest/issues"
+  },
+  "homepage": "https://github.com/lukes611/uttest#readme"
+}
