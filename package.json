@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/lukes611/uttest/issues"
   },
-  "homepage": "https://github.com/lukes611/uttest#readme"
+  "homepage": "https://github.com/lukes611/uttest#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1"
+  }
 }
