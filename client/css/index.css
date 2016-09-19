@@ -7,10 +7,11 @@ form {
   width: 40%;
   margin-left: auto;
   margin-right: auto; }
-  form .inputTestClass {
+  form .inputTextClass {
     background-color: #69737c;
     width: 95%;
-    margin-left: 0; }
+    margin-left: 0;
+    border: 1px solid #9eadba; }
   form .formSubsection {
     margin-bottom: 5%; }
   form #userWarning {
