@@ -20,6 +20,19 @@ form {
   form #userWarning {
     color: red;
     display: none; }
+  form .formButtons {
+    color: white;
+    background-color: #374550;
+    border: 2px solid white;
+    padding: 1%;
+    font-size: 80%;
+    font-weight: bold;
+    margin-right: 2%; }
+  form #resetButton {
+    color: #9eadba;
+    font-weight: normal;
+    border: none;
+    text-decoration: underline; }
 
 .formHeader {
   font-size: 200%;
