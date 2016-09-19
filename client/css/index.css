@@ -7,6 +7,9 @@ form {
   width: 40%;
   margin-left: auto;
   margin-right: auto; }
+  @media screen and (max-width: 600px) {
+    form {
+      width: 80%; } }
   form .inputTextClass {
     background-color: #69737c;
     width: 95%;
@@ -21,5 +24,8 @@ form {
 .formHeader {
   font-size: 200%;
   font-weight: bold; }
+  @media screen and (max-width: 600px) {
+    .formHeader {
+      font-size: 150%; } }
 
 /*# sourceMappingURL=index.css.map */
