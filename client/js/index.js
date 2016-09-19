@@ -21,6 +21,7 @@ var IndexHTMLCode = {
         }else warningTag.style.display = 'none';
         
         return isValid; //either other is not checked or the user has put data into the input
-    }
+    },
+    dev : false
 };
 
