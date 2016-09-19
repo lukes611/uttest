@@ -11,6 +11,9 @@
         <!-- css for index.html -->
         <link href="css/index.css" rel="stylesheet">
         
+        <!-- css for mocha -->
+        <link rel="stylesheet" href="../node_modules/mocha/mocha.css" />
+        
     </head>
     <body>
     
@@ -65,6 +68,21 @@
             </fieldset>
         </form>
         
+        <div id="mocha"></div>
+        
+        <script src="../node_modules/mocha/mocha.js"></script>
+        <script src="../node_modules/chai/chai.js"></script>
         <script src="js/index.js"></script>
+        <script>
+            //mocha testing
+            mocha.setup('bdd');
+            
+            
+            describe('IndexHTMLCode.valid()', function(){
+                
+            });
+            
+            mocha.run();
+        </script>
     </body>
 </html>
