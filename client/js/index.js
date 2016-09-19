@@ -8,7 +8,7 @@ var IndexHTMLCode = {
         var otherTag    = document.getElementById(this.radioId);
         var inputTag    = document.getElementById(this.inputTagId);
         var warningTag  = document.getElementById(this.errorTagId);
-        if(otherTag == null || inputTag == null || warningTag == null) throw new Error('unable to access dom elements in IndexHTMLCode.valid() function');
+        if(otherTag === null || inputTag === null || warningTag === null) throw new Error('unable to access dom elements in IndexHTMLCode.valid() function');
         
         var otherChecked = otherTag.checked;
         var inputTagHasData = inputTag.value.length > 0;
