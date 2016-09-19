@@ -1,5 +1,11 @@
 body {
-  background-color: orange;
-  color: blue; }
+  font-family: "Open Sans", sans-serif;
+  background-color: #374550;
+  color: white; }
+
+form {
+  width: 54%;
+  margin-left: auto;
+  margin-right: auto; }
 
 /*# sourceMappingURL=index.css.map */
