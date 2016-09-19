@@ -4,8 +4,18 @@ body {
   color: white; }
 
 form {
-  width: 54%;
+  width: 40%;
   margin-left: auto;
   margin-right: auto; }
+  form .inputTestClass {
+    background-color: #69737c;
+    width: 95%;
+    margin-left: 0; }
+  form .formSubsection {
+    margin-bottom: 5%; }
+
+.formHeader {
+  font-size: 200%;
+  font-weight: bold; }
 
 /*# sourceMappingURL=index.css.map */

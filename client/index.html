@@ -16,22 +16,22 @@
     
         <form>
             <fieldset>
-                <legend>Cake Enquiry Form</legend>
+                <legend class="formHeader">Cake Enquiry Form</legend>
                 
                 <!-- Name: -->
-                <div>
-                    <label for="name">Name: </label>
-                    <input required aria-required="true" id="name" name="name" aria-describedby="name-format">
+                <div class="formSubsection">
+                    <label for="name">Name: </label><br>
+                    <input class="inputTestClass" required aria-required="true" id="name" name="name" aria-describedby="name-format">
                 </div>
                 
                  <!-- Email: -->
-                <div>
-                    <label for="email">Email: </label>
-                    <input required aria-required="true" id="email" name="email">
+                <div class="formSubsection">
+                    <label for="email">Email: </label><br>
+                    <input class="inputTestClass" required aria-required="true" id="email" name="email">
                 </div>
                 
                  <!-- Type of cake: -->
-                <div>
+                <div class="formSubsection">
                     <label for="typeOfCake">Type of cake: </label><br>
                     <input type="checkbox" name="typeOfCake" value="cupcakes"> Cupcakes<br>
                     <input type="checkbox" name="typeOfCake" value="cheesecakes"> Cheesecakes<br>
@@ -40,20 +40,17 @@
                 </div>
                 
                 <!-- Celebration type: -->
-                <div>
+                <div class="formSubsection">
                     <label for="celebrationType">Celebration type: </label><br>
                     <input type="radio" name="celebrationType" value="birthday"> Birthday<br>
                     <input type="radio" name="celebrationType" value="wedding"> Wedding<br>
                     <input type="radio" name="celebrationType" value="corporate"> Corporate<br>
                     <input type="radio" name="celebrationType" value="other"> Other<br>
-                </div>
-                <!-- other description -->
-                <div>
-                    <input id="otherDescription" name="otherDescription" type="text">
+                    <input class="inputTestClass" id="otherDescription" name="otherDescription" type="text">
                 </div>
                 
                 <!-- 'Tell us about your dream cake' input -->
-                <div>
+                <div class="formSubsection">
                     <label for="tellUs">Tell us about your dream cake: </label><br>
                     <textarea id="tellUs" class="text" name="tellUs"></textarea>
                 </div>
