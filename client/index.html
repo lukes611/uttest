@@ -9,8 +9,32 @@
                 
                 <!-- Name: -->
                 <div>
-                    <label for="Name">Name: </label>
-                    <input required aria-required="true" id="Name" name="Name" aria-describedby="name-format">
+                    <label for="name">Name: </label>
+                    <input required aria-required="true" id="name" name="name" aria-describedby="name-format">
+                </div>
+                
+                 <!-- Email: -->
+                <div>
+                    <label for="email">Email: </label>
+                    <input required aria-required="true" id="email" name="email">
+                </div>
+                
+                 <!-- Type of cake: -->
+                <div>
+                    <label for="typeOfCake">Type of cake: </label><br>
+                    <input type="checkbox" name="typeOfCake" value="cupcakes"> Cupcakes<br>
+                    <input type="checkbox" name="typeOfCake" value="cheesecakes"> Cheesecakes<br>
+                    <input type="checkbox" name="typeOfCake" value="butterCakes"> Butter Cakes<br>
+                    <input type="checkbox" name="typeOfCake" value="mudCakes"> Mudcakes<br>
+                </div>
+                
+                <!-- Celebration type: -->
+                <div>
+                    <label for="celebrationType">Celebration type: </label><br>
+                    <input type="radio" name="celebrationType" value="birthday"> Birthday<br>
+                    <input type="radio" name="celebrationType" value="wedding"> Wedding<br>
+                    <input type="radio" name="celebrationType" value="corporate"> Corporate<br>
+                    <input type="radio" name="celebrationType" value="other"> Other<br>
                 </div>
                 
             </fieldset>
