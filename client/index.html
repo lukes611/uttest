@@ -14,7 +14,7 @@
     </head>
     <body>
     
-        <form>
+        <form onsubmit="return IndexHTMLCode.valid();">
             <fieldset>
                 <legend class="formHeader">Cake Enquiry Form</legend>
                 
@@ -46,6 +46,7 @@
                     <input type="radio" name="celebrationType" value="wedding"> Wedding<br>
                     <input type="radio" name="celebrationType" value="corporate"> Corporate<br>
                     <input type="radio" id="otherCelebrationType" name="celebrationType" value="other"> Other<br>
+                    <div id="userWarning" >Please enter a description of your Celebration type</div>
                     <input class="inputTestClass" id="otherDescription" name="otherDescription" type="text">
                 </div>
                 

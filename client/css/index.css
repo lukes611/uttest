@@ -13,6 +13,9 @@ form {
     margin-left: 0; }
   form .formSubsection {
     margin-bottom: 5%; }
+  form #userWarning {
+    color: red;
+    display: none; }
 
 .formHeader {
   font-size: 200%;
